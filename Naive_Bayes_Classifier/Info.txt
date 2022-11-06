@@ -1,0 +1,24 @@
+Brz, prost, radi na mnogo stvari, radi najbolje ako je bell curve distribucija
+
+Uputstvo:
+1. Rastavi DS po klasama
+2. Mean po atributu po klasi
+3. Std dev po atributu po klasi
+4. Gausova funkcija distribucije verovatnoce
+
+5. Klasifikacija: za neko x = x1,x2 i za 2 moguce klase (c0 i c1) koje su 50-50 podeljene
+
+		  P(c0|x) = P(x1|c0) * P(x2|c0) * P(c0)
+		  P(c1|x) = P(x1|c1) * P(x2|c1) * P(c1)
+
+		  Gde je P(x1|c0) = Gaus za x1 za atribute 1 klase 0  (m i s za te atribute i klasu)
+		  P(c0) je verovatnoca da je u pitanju c0 klasa (0.5 u ovom slucaju)
+		  Klasa se odredjuje uporedjivanjem P(c0|x) i P(c1|x).
+
+========================
+
+-Mean je samo suma xi podeljeno sa br el. (obelezavacu sa m)
+
+-Std dev je suma xi - mean na kv pa podeljeno sa br el. pa sve korenovano (obelezavacu sa s)
+
+-Gaus(x) = (1/s*sqrt(2pi)) * e na -1/2 ((x - m) / s)^2
